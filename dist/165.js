@@ -1,1 +1,1 @@
-(window.webpackJsonpmodule_federation=window.webpackJsonpmodule_federation||[]).push([[165],{165:(e,d,n)=>{"use strict";n.r(d),n.d(d,{default:()=>t});var a=n(104),p=n.n(a);const t=e=>p().createElement("div",{style:{padding:"50px 12px",display:"flex"}},p().createElement("div",null,"app1"))}}]);
+(window.webpackJsonpmodule_federation=window.webpackJsonpmodule_federation||[]).push([[165],{165:(e,t,a)=>{"use strict";a.r(t),a.d(t,{default:()=>o});var n=a(104),d=a.n(n);const o=e=>d().createElement("div",null,"React webpack-5 template")}}]);
