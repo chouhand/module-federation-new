@@ -31,13 +31,11 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'app2',
-      library: { type: 'var', name: 'app2' },
+      name: 'host',
       filename: 'remoteEntry.js',
-      exposes: {
-        './App': './src/App'
-      },
-      shared: ['react', 'react-dom']
+      remotes: {},
+      exposes: {},
+      shared: require('./package.json').dependencies
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html'
